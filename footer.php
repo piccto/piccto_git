@@ -7,3 +7,4 @@
 	</ul>
 </footer>
 <a class="bt_up" href="#top"></a>
+<!-- testmessage -->
