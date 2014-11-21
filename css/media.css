@@ -1,0 +1,57 @@
+/* 
+------------------------------
+piccto Design + Web
+------------------------------
+www.piccto.de
+------------------------------
+Media CSS
+-----------------------------*/
+
+/* Media queries 
+-----------------------------*/
+
+/* Screen under 1024px */
+
+@media only screen and (max-width: 1000px) {
+
+body							{}
+
+h1, h2, h3						{zoom: 80%;}
+
+.inside							{}
+
+	
+}
+
+/* Tablet Landscape 1024 */
+
+@media only screen and (max-width: 1024px) and (orientation : landscape){
+
+
+}
+
+/* Tablet Portrait 768 */
+
+@media only screen and (max-width: 800px) {
+
+.inside							{xxxwidth: 80%;} /*padding: 0 20px*/
+
+.col_16, .col_14, .col_13, .col_12, .col_23, .col_34, .col_56, .col_13.g_60, .col_12.g_90, .col_divider, .row_23 					
+
+								{width: 100%; margin: 0; padding: 0; display: block;}
+}
+
+/* Mobile Landscape 768 */
+
+@media only screen and (max-width: 800px) and (orientation : landscape){
+
+
+
+}
+
+/* Mobile Portrait 320/480 */
+
+@media only screen and (max-width: 500px) {
+
+
+}

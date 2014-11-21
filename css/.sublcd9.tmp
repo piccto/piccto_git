@@ -1,0 +1,84 @@
+/*
+------------------------------
+www.piccto.de
+------------------------------
+Style CSS
+-----------------------------*/
+
+.nav_responsive					{display: none;}
+
+header							{height: 120px; background: #333;}
+
+a.logo							{
+								display: inline-block; 
+								height: 120px; 
+								width: 100px; 
+								xpadding: 0 50px; 
+								background: url(img/piccto_logo.png) no-repeat center center;
+								xbackground-color: #666;
+								}
+								
+a:hover.logo					{background-color: #ff3300;}				
+
+ul.nav_main						{float: right; padding-right: 50px;}
+
+ul.nav_main li					{float: left; padding-left: 50px;}
+
+ul.nav_main li a				{font-size: 22px; color: #fff; line-height: 120px;}
+
+ul.nav_main li a:hover			{color: #ff3300;}
+
+.top_img						{position: relative; background-color: #f1f1f1;}
+
+.orange							{color: #ff3300;}
+
+h3								{font-size: 36px; xcolor: #ff3300; xtext-transform: uppercase;}
+
+a.bt_arbeiten						{
+								display: inline-block;
+								width: 50px;
+								height: 50px;
+								font-size: 40px;
+								text-align: center;
+								line-height: 48px;
+								background-color: #f1f1f1;
+								border: 1px solid #ccc;
+								opacity:0.9;
+								position: absolute;
+								z-index: 999;
+								left: 0;
+								right: 0;
+								margin: auto;
+								bottom: 20px;
+								}
+								
+.bt_arbeiten:hover				{color: #ff3300;}
+
+.col_work						{width: 19%; padding: 3%; border-right: 1px solid #DDD; xborder-bottom: 1px solid #DDD;}
+
+.col_work img					{width: 100%; hight: auto; float: left;}
+
+hr								{border-top: 1px solid #DDD; margin: 50px 0;}
+
+footer li						{float: left; padding-right: 30px; font-size: 13px;}
+
+
+/*Sudo Slider
+-----------------------------*/
+
+#slider, slider li {
+    width:100%;
+	overflow:hidden; 
+}
+#slider img{
+	width: 100%;
+	height: auto;
+    border:none;
+}
+#slider ul, #slider li{
+    position:relative;
+    margin:0;
+    padding:0;
+    list-style:none;
+	display:block;
+}

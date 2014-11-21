@@ -1,0 +1,311 @@
+/*
+------------------------------
+www.piccto.de
+------------------------------
+Style CSS
+-----------------------------*/
+
+body {
+	background: #f2f3f4;
+}
+
+header {
+	background: white;
+}
+
+.logo a {
+	float: left; 
+	display: inline-block; 
+	margin-top: 32px;
+}
+footer {
+	padding: 30px 0;
+	border-top: 1px solid #ddd;
+	
+}					
+footer li {
+	float: left; 
+	padding-right: 30px; 
+	color: #999;
+}
+
+
+/* Navi */
+								
+ul.nav_main {
+	float: right; 
+	line-height: 100px;
+}
+
+ul.nav_main li {
+	float: left; 
+	padding-left: 50px;
+}
+
+ul.nav_main li a {
+	font-size: 18px; 
+	color: #999;
+}
+
+ul.nav_main li a:hover {
+	color: #666;
+}
+
+.nav_responsive	{
+	display: none;
+}
+
+/* Styles */
+
+.orange {
+	color: #ff3300;
+}
+
+a:hover {
+	color: #333;
+}
+
+hr {
+	border-top: 1px solid #ddd;
+}
+
+/* Blocks */
+
+.intro {
+	text-align: center;
+}
+
+.intro img {
+	width: 80px; 
+	margin-bottom: 20px; 
+	opacity: 0.7;
+}
+
+
+#view .col-33 {
+	position: relative; 
+	cursor: pointer;
+}
+
+#view img {
+	width: 100%; 
+	height: auto; 
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+}
+
+#view .hover {
+	display: none; 
+	width: 100%; 
+	position: absolute; 
+	left: 0; 
+	bottom: 5px; 
+	background-color: #333; 
+	opacity:0.8; 
+	color: #fff;
+}
+
+#view .col-33 .hover p {
+	padding: 20px;
+}
+
+#view .col-33:hover .hover {
+	display: block;
+}
+
+#view .button {
+	text-align: center;
+}
+
+#view .button a {
+	display: inline-block;
+	padding: 20px; 
+	margin: 20px 0;
+	border: 1px solid #ccc; 
+}
+																
+#view .button a:hover {
+	color: #ff3300;
+}
+
+#view .container.more {
+	display: none;
+}
+
+/* bxslider */
+
+section#slider	{
+	background-color: #f2f3f4; 
+	padding-top: 40px; 
+	margin-bottom: 2%; 
+	position: relative;
+}
+
+section#slider a.scroll	{
+	cursor: default;
+}
+
+.bx-wrapper	{
+	margin-bottom: 0;
+}
+
+.bx-wrapper img {
+	margin-bottom: 20px;
+}
+
+.bx-viewport {
+	padding: 0; 
+	border: 0;
+}
+
+.bx-pager {
+	bottom: 10px !important;
+}
+
+.bx-default-pager {
+	padding: 20px 0 !important; 
+	border-top: 1px solid #ddd;
+}
+
+.bxslider li.small {
+	padding: 0 100px;
+}
+
+.bxslider li.border img {
+	border: 1px solid #e5e6e7;
+}
+
+.homeslider li p {
+	text-align: center; 
+	padding-bottom: 20px;
+}
+
+#home .bx-controls-direction {
+	display: none;
+}
+
+.shaddow {
+	box-shadow: 0px 0px 8px #ccc; 
+	border: 1px solid #e7e8e9;
+}
+
+a.bt_up	{
+	display: none;
+	padding: 26px;
+	position: fixed; 
+	right: 3%; 
+	bottom: 20px; 
+	z-index: 9999; 
+	background: url(img/bt_up_0.png) no-repeat center center;
+}
+								
+a.bt_up:hover {
+	background: url(img/bt_up_1.png) no-repeat center center;
+}
+								
+
+#profil .col-66.table-cell > * {
+	padding-left: 100px;
+}
+
+/* ddformmailer */
+
+input, textarea, select {
+   -webkit-appearance: none;
+}
+
+.ddfmwrap {
+	position: relative;
+}
+
+form.ddfm {
+	width: 100%;
+}
+
+.form .credits {
+	display: none;
+}
+
+.form p.fieldwrap {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.form label {
+	display: none;
+}
+
+.form input,
+.form textarea {
+    width: 95%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    padding: 2.5%;
+    border: 1px solid #ddd;
+    color: #333;
+    background: white;
+}
+
+.form input {}
+
+.form .errorlist {
+	display: none;
+}
+
+.form span.required {
+	color: #ff0000;
+}
+
+.form .ddfmerrors {
+    color: #ff0000;
+    padding-bottom: 10px;
+}
+
+.form .submit {
+	width: 80px;
+    ---position: absolute;
+    ---bottom: 6px;
+    ---right: 0;
+    margin-top: -5px;
+}
+
+.form .submit input {
+    padding: 10px;
+    background: #ddd;
+    color: #777;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.form .submit input:hover {
+    background: #333;
+}
+
+input.placeholder,
+textarea.placeholder,
+input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input:-ms-input-placeholder {
+	color: #ccc !important;
+}
+
+#fm_name, #fm_email {
+	width: 44%;
+	float: left;
+	margin-bottom: 2.5%;
+}
+
+#fm_email {
+	float: right;
+}
+
+								
+/* Responsive
+-----------------------------*/
+
+@media only screen and (max-width: 1300px) {
+
+
+}
+
